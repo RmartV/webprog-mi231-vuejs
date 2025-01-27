@@ -30,6 +30,5 @@
       <img src="images/rm.gif">
     </div></footer>
 </template>
-<script></script>
-<style>
-</style>
+<script> </script>
+<style> </style>
