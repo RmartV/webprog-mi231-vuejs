@@ -22,4 +22,61 @@
 </template>
 <script> </script>
 <style>
+.nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; 
+  background-image: linear-gradient(0.25turn, #001E39, #001F3D, #325D86);
+  width: 1600px; 
+  height: 55px;
+  margin: 45px auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.nav a {
+  color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.current{
+  background-color: #87a9c7;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #102C46;
+  box-shadow: 5px 10px #001424;
+  width: 1000px;
+  max-width: 90%; 
+}
+
+.flex-container > div {
+  text-align: center;
+}
+.item3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+
+.item3 p {
+  padding: 20px;
+  color: aliceblue;
+  font-size: 23px;
+}
 </style>
