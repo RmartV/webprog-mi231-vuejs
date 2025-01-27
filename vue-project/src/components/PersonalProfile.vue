@@ -26,19 +26,6 @@
 </template>
 <script> </script>
 <style>
-body {
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(#00539F, #001E39);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial, sans-serif;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column; 
-}
-
-
 .nav {
   display: flex;
   align-items: center;
