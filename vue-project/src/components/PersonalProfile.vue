@@ -1,52 +1,73 @@
 <template>
-  <div class="container">
-    <header>
-    <h1>Know Me Better! </h1></header><main>
-    <section class="main-content">
-    
-    <div class="grid"><h2>About Me</h2>
-      <img src="https://i.pinimg.com/originals/d2/24/eb/d224eba9a97d27fb5f4702b06c8a3872.jpg" alt="Kuromi" style="width:30%;">
-      <p>I'm Michelle Reina B. Pineda, born on October 14, 2004</p></div>
-    <div class="grid"><h2>Education / Achievements</h2>
-      <p>Studies at Asia Pacific College</p></div>
-    <div class="grid"><h2>Course</h2>
-      <p>Studying Bachelor of Science  in Information Technology with specialization in Mobile and Internet Technology </p>
-    </div>
-    <div class="grid"><h2>IT Experience</h2>
-      <ul>
-      <li>Creating an app using Android studios</li>
-      </ul></div>
-    
-      <div class="grid"><h2>Hobbies & Interests</h2>
-        <ul>
-          <li>Watch movies and series</li>
-          <li>Makeup and skincare</li>
-          <li>Fashion</li>
-          <li>Collect figurines</li>
-          <li>Play games</li>
-        </ul>
-    </div>
-    
-    <div class="grid"><h2>Goals In Life / Dream</h2>
-      <ul>
-      <li>To graduate college</li>
-      <li>Have a stable job</li>
-      <li>Travel to different countries</li>
-    </ul>
-    </div>
-    <div class="grid"><h2>Picture Gallery</h2>
-      <div>
-      <img src="https://media.discordapp.net/attachments/1193932717964926998/1311600815776989204/36bbf78a-b4cb-43d4-8218-67047c711086.png?ex=674972f2&is=67482172&hm=5a4cf4a33fd9b420236201185e57b5dd673fbb33f1694b3056564b7ad02fc141&=&format=webp&quality=lossless&width=503&height=671" alt="Buying figures" style="width:60%;">
-      <img src="https://media.discordapp.net/attachments/1193932717964926998/1311601121092964352/image.png?ex=6749733b&is=674821bb&hm=89390075446cf067335f54d3d8c988dd0e97665cb353b78990b141c630f14d60&=&format=webp&quality=lossless&width=501&height=671" alt="Me in autumn" style="width:50%;">
-      <img src="https://media.discordapp.net/attachments/1193932717964926997/1312785322287038514/IMG_2805.jpg?ex=674dc21b&is=674c709b&hm=2588167229f01bf3c314899286fd7c3514cb5a3587a17be556d7098ad1884531&=&format=webp&width=498&height=665" alt="Makeup" style="width:50%;">
-      </div>
-    </div>
-    </section>
-    <aside class="sidebar"></aside>
-    </main>
-    <footer>Asia Pacific College</footer>
-    </div>
-</template>
+    <div class="container">
 
-<script></script>
-<style></style>
+<header><h1>Personal Profile Web page </h1>
+  </header>
+<main>
+  <section class="main-content">
+    <div class="block"><h3>About Me</h3>
+    <p>Hello! My name is Ray Mart Villacorte but you can call me RM, from Taguig City. A second year of Asia Pacific College. </div>
+
+<div class="block"><h4>Education / Achievements:</h4>
+<ui>
+<li>Elementary Education: Academia De San Isidro</li>
+<li>Highschool Education: Sto. Nino Catholic School</li>
+<li>Senior High School Education: Asia Pacific College</li>
+<li>College Education: Asia Pacific College</li>
+<li>With Honors (2023-2024 Asia Pacific College)</li>
+</ui>
+</div>
+
+<div class="block"><h4>IT Experience:</h4>
+<table>
+<tr>
+    <th>Project Name</th>
+    <th>Year</th>
+    <th>Position</th>
+</tr>
+<tr>
+    <td>Iteach webiste</td>
+    <td>2022-2023</td>
+    <td>frontend and backend developer</td>
+</tr>
+<tr>
+    <td>APC Dungeon, Gamefiend education website </td>
+    <td>2022-2023</td>
+    <td>frontend and backend developer</td>
+</tr>
+<tr>
+    <td>TrackIT mobile application</td>
+    <td>2023-2024</td>
+    <td>frontend and backend developer</td>
+</tr>
+</table>
+</div>
+
+<div class="block"><h4>Hobbies & Interests</h4>
+<ui>
+<li>Playing video games</li>
+<li>Collecting Figurines</li>
+<li>Reading Manga and Manhwa</li>
+<li>Watching F1 and movies</li>
+</ui>
+</div>
+
+<div class="block"><h4>Goals In Life / Dream</h4>
+<p>My first goal is to finish my course and then obtain a stable job that will allow me to earn enough money to support myself and my family.<br>
+I would like to pursue a career in the IT field, specifically data management, as I believe I have a strong aptitude for it.</p>
+</div>
+<div class="images"><h4>Picture Gallery</h4>
+<img src="https://scontent.fmnl30-2.fna.fbcdn.net/v/t1.15752-9/462554163_503559859376136_2379635252058729000_n.png?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_ohc=cve2YF_iEUwQ7kNvgGejH-Q&_nc_zt=23&_nc_ht=scontent.fmnl30-2.fna&oh=03_Q7cD1QHxx2hUR6oPqcRauSe-G5ZUs8fhPpUdWwDNfTsOOE7-Zg&oe=676EB616">
+<img src="https://scontent.fmnl30-1.fna.fbcdn.net/v/t1.15752-9/462556810_1142280997314373_9061044689026761361_n.png?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=SXazsWXgOBYQ7kNvgH5SwK9&_nc_zt=23&_nc_ht=scontent.fmnl30-1.fna&oh=03_Q7cD1QEjSd1YxPp6hIeI_p83EUN2hmVS5di9M-uP0ISFJNcgJw&oe=676E9A7E">
+</div>
+    </section>
+  <aside class="sidebar">
+    </aside>
+</main>
+<footer> Asia Pacific College
+  </footer>
+</div>
+</template>
+<script> </script>
+<style>
+</style>
