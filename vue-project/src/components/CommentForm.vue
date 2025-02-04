@@ -62,6 +62,7 @@
     }
     
     .form-group {
+        width: 80%;
       margin-bottom: 1rem;
     }
     
